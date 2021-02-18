@@ -164,23 +164,59 @@ header
 
 
 
-
-
-
-
-
-
-
-
 footer
 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-bottom: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 16em;
+    padding-right: 16em;
 }
+    #infofoot
+    {
+        font-weight: lighter;
+        font-size: 0.7em;
+        text-align: center;
+        margin-top: 4em;
+    }
+
+    #reseau
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+    }
+
+        .logoreseau
+        {
+            margin-left: 4em;
+            margin-right: 4em;
+        }
+
+    #grandBlocBas
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+
+        .blocBas
+        {
+            margin-left: 5em;
+            margin-right: 5em;
+            
+        }
+
+                h3 + p
+                {
+                    margin-left: 2em;
+                    width: 15em;
+                }
 
 
 
@@ -234,6 +270,21 @@ h1
     }
 
 
+    footer
+    {
+        color: white;
+    }
+
+    h3
+    {
+        color: #adaed8;
+        font-size: 1em;
+    }
+
+    li, h3 + p
+    {
+        font-size: 0.8em;
+    }
 
 
 
@@ -242,10 +293,16 @@ h1
 
 #template1
 {
-    background-image: url(image/backgroung_image.jpg) ;
+    background: url(image/backgroung_image.jpg) no-repeat ;
     background-position: center;
     background-size: contain;
     
+}
+
+footer
+{
+    background-color: #5b359d;
+
 }
 
 
