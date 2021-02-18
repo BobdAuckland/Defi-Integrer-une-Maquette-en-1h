@@ -1,0 +1,103 @@
+/* ------------------
+Version Desktop +1040px
+------------------*/
+
+
+/* POLICES AJOUTEES */
+
+@font-face 
+{
+	font-family: 'roboto';
+	src: url('Police/Roboto.ttf');
+}
+
+
+
+
+/* MISE EN PAGE BLOCS */
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    #logo
+    {
+        
+    }
+        #logopng
+        {
+            width: auto;
+            max-width: 350px;
+        }
+
+    #menu
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+        .boutonMenu
+        {
+            margin: 1%;
+            border: 2px solid blue ;
+            width: 85px;
+            height: 20px;
+            text-align: center;
+
+            font-size: 0.9em;
+
+        }
+
+
+/* MISE EN PAGE TEXTE */
+
+p
+{
+    font-family: "roboto";
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* MISE EN PAGE IMAGES */
+
+
+
+
+
+/* ANIMATIONS TEXTE */
+
+
+
+
+
+
+
+/* MISE EN PAGE IMAGES */
+
+
+
+
+
+
+
+/* ANIMATIONS IMAGES */
+
+
+
+
+
+/* ANIMATIONS FORMULAIRE */
+
+
+
+
+
